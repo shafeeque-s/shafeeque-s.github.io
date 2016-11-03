@@ -1,0 +1,43 @@
+body{
+	font-family: 'Roboto Mono', monospace;
+	color: #666666;
+}
+.top-container{
+	margin-top: 1em;
+}
+.brand-logo{
+	width: 75px;
+    margin-top: 20px;
+}
+nav{
+	background: transparent;
+    border: none;
+    box-shadow: none;
+}
+nav li{
+	margin: 2em 5em;
+}
+nav li a{
+	color: #666666;
+    font-size: 1.03em;
+}
+nav li a:hover{
+	background: none;
+	color: #000000;
+}
+@media only screen and (min-width: 993px){
+	.container {
+	    width: 80%;
+	}	
+}
+.info-main{
+	line-height: 54px;
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: black;
+    font-weight: 500;
+}
+.info-main a{
+	color: initial;
+    text-decoration: underline;
+}
