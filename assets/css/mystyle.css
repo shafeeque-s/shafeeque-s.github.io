@@ -41,3 +41,14 @@ nav li a:hover{
 	color: initial;
     text-decoration: underline;
 }
+.button-collapse{
+	color: #424242;
+    top: 2em;
+    margin-bottom: 2em;
+}
+.side-nav{
+	background: black;
+}
+.side-nav li a{
+	color: white !important;
+}
